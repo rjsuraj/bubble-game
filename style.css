@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'cascadia code';
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(128, 170, 128);
+}
+
+#pannel{
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#ptop{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: rgb(72, 109, 72);
+}
+
+.elem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 12px;
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(66, 139, 66);
+    padding: 10px 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#pbtm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    height: calc(100% - 90px);
+    padding: 20px;
+}
+
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px 20px;
+    background-color: rgb(72, 109, 72);
+    color: white;
+    border-radius: 100%;
+}
+
+.bubble:hover{
+    background-color: rgb(43, 92, 43);
+    cursor: pointer;
+}
